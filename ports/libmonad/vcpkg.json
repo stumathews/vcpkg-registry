@@ -1,6 +1,6 @@
 {
   "name": "libmonad",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "C++ header-only monda library for small projects",
   "homepage": "https://github.com/stumathews/libmonad",
   "license": "MIT",
