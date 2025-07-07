@@ -6,6 +6,15 @@ vcpkg_from_github(
     HEAD_REF master
 )
 
-vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}")
+vcpkg_cmake_configure(
+    SOURCE_PATH "${SOURCE_PATH}"
+)
+
 vcpkg_cmake_install()
-vcpkg_install_copyright("${SOURCE_PATH}/COPYING")
+
+vcpkg_cmake_config_fixup(PACKAGE_NAME "cppgmaelib
+
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
+
+file(INSTALL "${CMAKE_CURRENT_LIST_DIR}/usage" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}")
+vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
