@@ -2,5 +2,23 @@
   "name": "cppgamelib",
   "version": "1.2.0",
   "description": "C++ game library for creating simple real-time 2D games",
-  "homepage": "https://github.com/stumathews/CppGameLib"
+  "homepage": "https://github.com/stumathews/CppGameLib",
+  "license": "MIT",
+  "dependencies": [
+    "libsodium",
+    "gtest",
+    "sdl2",
+    "sdl2-ttf",
+    "sdl2-mixer",
+    "sdl2-image",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+
 }
