@@ -5,12 +5,12 @@
   "homepage": "https://github.com/stumathews/CppGameLib",
   "license": "MIT",
   "dependencies": [
-    "libsodium",
     "gtest",
+    "libsodium",
     "sdl2",
-    "sdl2-ttf",
-    "sdl2-mixer",
     "sdl2-image",
+    "sdl2-mixer",
+    "sdl2-ttf",
     {
       "name": "vcpkg-cmake",
       "host": true
@@ -20,5 +20,4 @@
       "host": true
     }
   ]
-
 }
