@@ -1,6 +1,6 @@
 {
   "name": "cppgamelib",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "C++ game library for creating simple real-time 2D games",
   "homepage": "https://github.com/stumathews/CppGameLib",
   "license": "MIT",
