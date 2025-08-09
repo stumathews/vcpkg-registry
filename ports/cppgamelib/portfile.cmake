@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO stumathews/cppgamelib
-    REF v1.2.20
-    SHA512 e1b25b71efc4cfa07c3989587461e2523b0072901e04d069add2379ce37fc5f3f5fc5646c25084e501d8d13ecfd680d41f6dd97d5c040d9a1dd5daf119fc04a3
+    REF v1.2.21
+    SHA512 0
     HEAD_REF master
 )
 
@@ -13,9 +13,6 @@ vcpkg_cmake_configure(
 vcpkg_cmake_install()
 
 vcpkg_cmake_config_fixup()
-
-file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
-file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
 
 file(INSTALL "${CMAKE_CURRENT_LIST_DIR}/usage" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}")
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
