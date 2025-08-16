@@ -1,4 +1,0 @@
-test provides CMake targets:
-
-find_package(test CONFIG REQUIRED)
-target_link_libraries(main PRIVATE test::test)
