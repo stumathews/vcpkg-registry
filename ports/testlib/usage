@@ -1,0 +1,4 @@
+testlib provides CMake targets:
+
+find_package(testlib CONFIG REQUIRED)
+target_link_libraries(main PRIVATE testlib::testlib)
