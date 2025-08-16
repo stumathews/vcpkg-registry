@@ -1,0 +1,23 @@
+{
+  "name": "mazer",
+  "version": "0.1",
+  "description": "C++ game library creating a game caller mazer",
+  "homepage": "https://github.com/stumathews/CppGameLib",
+  "license": "MIT",
+  "dependencies": [
+    "gtest",
+    "libsodium",
+    "sdl2",
+    "sdl2-image",
+    "sdl2-mixer",
+    "sdl2-ttf",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
