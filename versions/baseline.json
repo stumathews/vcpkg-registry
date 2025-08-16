@@ -13,7 +13,7 @@
       "port-version": 0
     },
     "testlib": {
-      "baseline": "0.2",
+      "baseline": "0.4",
       "port-version": 0
     }
   }
