@@ -1,7 +1,7 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO stumathews/TemplateLibrary
-    REF v0.3
+    REF v0.4
     SHA512 0
     HEAD_REF master
 )
