@@ -7,6 +7,10 @@
     "libmonad": {
       "baseline": "1.0.4",
       "port-version": 0
+    },
+    "test": {
+      "baseline": "0.1",
+      "port-version": 0
     }
   }
 }
