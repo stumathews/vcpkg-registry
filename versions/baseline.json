@@ -9,7 +9,7 @@
       "port-version": 0
     },
     "test": {
-      "baseline": "0.1",
+      "baseline": "0.2",
       "port-version": 0
     }
   }
