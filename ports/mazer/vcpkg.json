@@ -1,8 +1,8 @@
 {
   "name": "mazer",
-  "version": "0.1",
+  "version": "0.3",
   "description": "C++ game library creating a game caller mazer",
-  "homepage": "https://github.com/stumathews/CppGameLib",
+  "homepage": "https://github.com/stumathews/mazerlib",
   "license": "MIT",
   "dependencies": [
     "gtest",
