@@ -1,0 +1,4 @@
+cppgamenetlib provides CMake targets:
+
+find_package(cppgamenetlib CONFIG REQUIRED)
+target_link_libraries(main PRIVATE cppgamenetlib::cppgamenetlib)

@@ -1,0 +1,20 @@
+vcpkg_from_github(
+    OUT_SOURCE_PATH SOURCE_PATH
+    REPO stumathews/cppgamenetlib
+    REF v0.1
+    SHA512 F013D88497EF8B7C4D1B9B9CCE5BB9FE1D74D26B04C034905DBEB2BA196B27E0823182160798E818A656C71DF59C10FA7BCD16737D9F1E494D7A85C989CA97E8
+    HEAD_REF master
+)
+
+vcpkg_cmake_configure(
+    SOURCE_PATH "${SOURCE_PATH}"
+)
+
+vcpkg_cmake_install()
+
+vcpkg_cmake_config_fixup(PACKAGE_NAME "cppgamenetlib" CONFIG_PATH lib/cmake/cppgamenetlib)
+
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
+
+file(INSTALL "${CMAKE_CURRENT_LIST_DIR}/usage" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}")
+vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")

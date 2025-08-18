@@ -1,0 +1,23 @@
+{
+  "name": "cppgamenetlib",
+  "version": "0.1",
+  "description": "C++ game network library",
+  "homepage": "https://github.com/stumathews/CppGamenetLib",
+  "license": "MIT",
+  "dependencies": [
+    "gtest",
+    "libsodium",
+    "sdl2",
+    "sdl2-image",
+    "sdl2-mixer",
+    "sdl2-ttf",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
