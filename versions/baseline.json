@@ -5,7 +5,7 @@
       "port-version": 0
     },
     "cppgamenetlib": {
-      "baseline": "0.3",
+      "baseline": "0.5",
       "port-version": 0
     },
     "libmonad": {
