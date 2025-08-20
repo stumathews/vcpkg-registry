@@ -1,6 +1,6 @@
 {
   "name": "cppgamenetlib",
-  "version": "0.6",
+  "version": "0.7",
   "description": "C++ game network library",
   "homepage": "https://github.com/stumathews/CppGamenetLib",
   "license": "MIT",
