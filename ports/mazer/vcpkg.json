@@ -1,6 +1,6 @@
 {
   "name": "mazer",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "C++ game library creating a game caller mazer",
   "homepage": "https://github.com/stumathews/mazerlib",
   "license": "MIT",
@@ -12,6 +12,7 @@
     "sdl2-image",
     "sdl2-mixer",
     "sdl2-ttf",
+    "tinyxml2",
     {
       "name": "vcpkg-cmake",
       "host": true
