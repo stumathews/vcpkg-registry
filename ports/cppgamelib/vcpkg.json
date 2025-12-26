@@ -8,6 +8,7 @@
     "gtest",
     "libsodium",
     "lua",
+    "tinyxml2",
     "sdl2",
     "sdl2-image",
     "sdl2-mixer",
