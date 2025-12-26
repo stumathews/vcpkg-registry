@@ -3,7 +3,7 @@ vcpkg_from_github(
     REPO stumathews/cppgamelib
     REF v1.2.34
     SHA512 306696deac8b12ad8b110f4d7fe9de06fd8f11138248d52203d8e723634473c4a260f1d63e2503da20e5bb463bb0852d2f2c61aacdc589874e0bb8f8bde41db3  
-    HEAD_REF linux
+    HEAD_REF master
 )
 
 vcpkg_cmake_configure(
