@@ -21,7 +21,7 @@
       "port-version": 0
     },
     "testlib": {
-      "baseline": "0.6.1",
+      "baseline": "0.6.2",
       "port-version": 0
     }
   }
