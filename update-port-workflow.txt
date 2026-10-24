@@ -1,0 +1,12 @@
+1. Update port file (eg.ports/cppgamelib) and its vcpkg.json manifest.
+2. Commit the port changes.
+3. Run vcpkg x-add-version cppgamelib to register the version.
+
+vcpkg --x-builtin-ports-root=./ports
+--x-builtin-registry-versions-dir=./versions x-add-version cppgamelib
+--overwrite-version
+
+4. Update versions/baseline.json to select the new version.
+5. Commit and push the registry changes.
+
+Update the custom registry baseline in consuming projects to the new registry commit SHA.
