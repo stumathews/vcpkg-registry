@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO stumathews/libmonad
-    REF test4
-    SHA512 203d761868efb3d2f5e8f4b6f8cd3a0a2ba8cf3c0f025e86dfed3444fd3bf5b2e08a9e67db68f23bace99533a02a8798d0db4fb075fdc87e08fcec17bcdc575b
+    REF v0.6
+    SHA512 9696a4f2ef9a3506155097eb6d18f3f479bbd9913304494acc56a23e202bb7373ec93a0e943c5e17fc4eb46b05f47d33ec259ba7e97332dca2bffb13eb1e1ecb 
     HEAD_REF master
 )
 
