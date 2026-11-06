@@ -1,7 +1,7 @@
 {
   "default": {
     "cppgamelib": {
-      "baseline": "1.2.58",
+      "baseline": "1.2.59",
       "port-version": 0
     },
     "cppgamenetlib": {
