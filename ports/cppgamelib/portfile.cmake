@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO stumathews/cppgamelib
-    REF v1.2.62
-    SHA512 c96165db57fb2f6c12334f8c5b76404ccdcaf3c8326ec7381db7b4a53bd952c850d58e4c82f9dcfc8ef87dbbd62611fc7ce1f13bc399cfec1d00b87331bc33b0 
+    REF v1.2.63
+    SHA512 99a78b9bdf71394e9503e99a9b17c277d541aacf63d7fd99fb09ecb40252d4ac8b63d6c0b8109cceaf8bbd6b8104cd141209540f9398fd459d81a165c3676a6a 
     HEAD_REF master
 )
 
