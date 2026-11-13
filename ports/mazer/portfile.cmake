@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO stumathews/mazerlib
-    REF v0.4.11
-    SHA512 f4f8115a76c13fb4618dbd20f0e7baba04c7f716cc33afd045917dc9f29d21ce149afeff5a8c9d315edf2555c76d5274ffcb677f76e8e62ea0e4b1d362b87e53 
+    REF v0.4.12
+    SHA512 39075d22aea52877d8fbb0262578afdb8e76c3c45f57699624b0e08baefb5053145a3a05d4bc37c8fc9f3b992628419f2cefc13022bd3cc522161e93ae215370 
 
     HEAD_REF master
 )
